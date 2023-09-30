@@ -21,6 +21,7 @@ const BookEdit = ({ book, onSubmit }) => {
           value={title}
           onChange={handleChange}
           className="input"
+          required
         />
         <button className="button is-primary">Save</button>
       </form>
